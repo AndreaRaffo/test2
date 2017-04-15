@@ -1,12 +1,8 @@
 <?php
 if(isset($_POST["name"]) && isset($_POST["password"])){
 	
-	$file = fopen('data.txt', 'a');
-	fwrite($f,'Hello;123');
-    fclose($f);
-	include('index.php');
 	
-/*    $file = fopen('data.txt', 'r');
+   $file = fopen('data.txt', 'r');
     $good=false;
     while(!feof($file)){
 			$line = fgets($file);
@@ -25,7 +21,7 @@ if(isset($_POST["name"]) && isset($_POST["password"])){
 		echo "<script> alert('$message'); </script>";
 		include('index.php');
     }
-fclose($file);*/
+fclose($file);
 }else{
     include 'index.php';
 }
