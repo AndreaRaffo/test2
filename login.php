@@ -16,7 +16,7 @@ if(isset($_POST["name"]) && isset($_POST["password"])){
     }else{
         $message="Try again";
     }
-    include 'private.html';
+    include 'private.php';
 fclose($file);
 }else{
     include 'index.php';
