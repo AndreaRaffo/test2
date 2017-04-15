@@ -49,7 +49,7 @@
 		  <img src="Images/registrati.png" alt="Registrati">
 		</button>		
 		  			<div id="id02" class="modal">	
-					<form class="modal-content animate" action="/action_page.php">
+					<form class="modal-content animate" action="register.php">
    					<div class="imgcontainer">
       						<span onclick="document.getElementById('id02').style.display='none'" class="close" title="Chiudi">&times;</span>
       						
@@ -58,9 +58,9 @@
      						<label><b>Inserisci i dati:</b></label>
       						<input type="text" placeholder="Nome" name="name" required>
       						<input type="text" placeholder="Cognome" name="surname" required>
-      						<input type="text" placeholder="Nome Utente" name="uname" required>
+      						<input type="text" placeholder="Nome Utente" name="username" required>
       						<input type="text" placeholder="Mail" name="mail" required>
-      						<input type="password" placeholder="Password" name="psw" required>
+      						<input type="password" placeholder="Password" name="password" required>
         			    	<button class="loginBtn" type="submit">Registrati</button>
     					</div>
 						<div class="containerForm" style="background-color:#a8aaad">
