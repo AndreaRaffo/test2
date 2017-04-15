@@ -61,7 +61,7 @@
       						<input type="text" placeholder="Nome Utente" name="name" required>
       						<input type="text" placeholder="Mail" name="mail" required>
       						<input type="password" placeholder="Password" name="password" required>
-        			    	<button class="loginBtn" type="submit">Registrati</button>
+        			    	<button class="loginBtn" type="submit" name="Login" value="Login">Registrati</button>
     					</div>
 						<div class="containerForm" style="background-color:#a8aaad">
     					</div>
