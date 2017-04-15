@@ -56,9 +56,9 @@
     					</div>
     					<div class="containerForm">
      						<label><b>Inserisci i dati:</b></label>
-      						<input type="text" placeholder="Nome" name="name" required>
+      						<input type="text" placeholder="Nome" name="rname" required>
       						<input type="text" placeholder="Cognome" name="surname" required>
-      						<input type="text" placeholder="Nome Utente" name="username" required>
+      						<input type="text" placeholder="Nome Utente" name="name" required>
       						<input type="text" placeholder="Mail" name="mail" required>
       						<input type="password" placeholder="Password" name="password" required>
         			    	<button class="loginBtn" type="submit">Registrati</button>
