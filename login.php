@@ -1,15 +1,24 @@
 <?php
+if(isset($_POST["name"]) && isset($_POST["password"])){
+    $file = fopen('data.txt', 'r');
+    $good=false;
+    while(!feof($file)){
+			$line = fgets($file);
+			list($user, $pass) = explode(';', $line);
+			if(trim($user) == $_POST['name'] && trim($pass) == $_POST['password']){
+        	$good=true;
+			break;
+		}
+	}
 
-//If Submit Button Is Clicked Do the Following
-if ($_POST['Login']){
-
-$myFile = "data.txt";
-$fh = fopen($myFile, 'a') or die("can't open file");
-$stringData = $_POST['username'] . ":";
-fwrite($fh, $stringData);
-$stringData = $_POST['password'] . "\n";
-fwrite($fh, $stringData);
-fclose($fh);
-
-} 
+    if($good){
+        $message="Welcome";
+    }else{
+        $message="Try again";
+    }
+    include 'index.php';
+fclose($file);
+}else{
+    include 'index.php';
+}
 ?>
