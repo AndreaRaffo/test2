@@ -30,7 +30,7 @@
       						<img src="Images/avatar.png" alt="Avatar" class="avatar">
     					</div>
 						<div class="containerForm">
-      						<input type="text" placeholder="Nome Utente" name="username" required>
+      						<input type="text" placeholder="Nome Utente" name="name" required>
       						<input type="password" placeholder="Password" name="password" required>
         			    	<button class="loginBtn" type="submit" value="Login" name="Login">Login</button>
         			    	<br>
