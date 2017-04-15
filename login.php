@@ -13,10 +13,11 @@ if(isset($_POST["name"]) && isset($_POST["password"])){
 
     if($good){
         $message="Welcome";
+		include 'private.php';
     }else{
         $message="Try again";
+		include('index.php');
     }
-    include 'private.php';
 fclose($file);
 }else{
     include 'index.php';
