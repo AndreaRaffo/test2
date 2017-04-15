@@ -15,7 +15,7 @@
 		</div>
 		<div id="navArea">
 			<ul id="nav">
-				<li><a href="#"><img src="Images/home.png" alt="Home"></a></li>
+				<li><a href="index.php"><img src="Images/home.png" alt="Home"></a></li>
 				<li><a href="#"><img src="Images/descrizione.png" alt="Descrizione"></a></li>
 				<li><a href="#"><img src="Images/servizi.png" alt="Servizi"></a></li>
 				<li><a href="#"><img src="Images/contatti.png" alt="contatti"></a></li>	
