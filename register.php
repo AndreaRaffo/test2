@@ -12,5 +12,8 @@
     }
 fclose ($fp);    
 }
+else{
+	include 'index.php';
+}
 ?>
 
