@@ -1,6 +1,5 @@
 
 <?php
-
 if(1>0){
   $username = $_POST['username'];
 	echo $username;
