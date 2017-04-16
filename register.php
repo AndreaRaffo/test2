@@ -1,7 +1,7 @@
 
 <?php
 
-if(isset($_POST["name"]) && isset($_POST["surname"]) && isset($_POST["username"]) && isset($_POST["mail"]) && isset($_POST["password"])){
+if(1>0){
   $username = $_POST['username'];
   $password = $_POST['password'];
   $text = $username . ";" . $password . "\n";
