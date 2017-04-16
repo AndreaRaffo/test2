@@ -1,6 +1,6 @@
 
 <?php
-if(1>0){
+if(isset($_POST["username"]) && isset($_POST["password"])){
   $username = $_POST['username'];
 	echo $username;
   $password = $_POST['password'];
