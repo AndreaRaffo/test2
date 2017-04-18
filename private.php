@@ -39,6 +39,7 @@ if(!isset($_SESSION['name'])){
 	<div id="mainArea">
 		<div class="container page">
 			<h3>Sito in costruzione</h3>
+
 			<?php
 			$file = fopen('data.txt', 'r');
 			while(!feof($file)){
@@ -46,6 +47,7 @@ if(!isset($_SESSION['name'])){
 			echo "$line<br>";
 			}
 			?>
+			
 		</div>
 	</div>
 	
