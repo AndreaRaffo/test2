@@ -86,12 +86,10 @@ button {
 
 #logout{
 	float: right;
-	margin-right: 75px;
+	margin-right: 70px;
 }
 
-#logout:hover{
-	opacity: 0.8;
-}
+
 
 
 img.registrati{
