@@ -15,6 +15,7 @@ if(isset($_POST["name"]) && isset($_POST["password"])){
 
     if($good){
         $message="Welcome";
+		$_SESSION['name'] = $_POST["name"];
 		include 'private.php';
     }else{
         $message="Try again";
