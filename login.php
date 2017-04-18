@@ -1,7 +1,6 @@
 <?php
 if(isset($_POST["name"]) && isset($_POST["password"])){
 	
-	
    $file = fopen('data.txt', 'r');
     $good=false;
     while(!feof($file)){
