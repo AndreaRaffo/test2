@@ -2,7 +2,7 @@
 <?php
 session_start();
 if(isset($_SESSION['name'])){
-	include 'private.php';
+	header("Location: private.php");
 }
 ?>
 
