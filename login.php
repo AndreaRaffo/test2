@@ -19,6 +19,7 @@ if(isset($_POST["name"]) && isset($_POST["password"])){
     }else{
         $message="Try again";
 		echo "<script> alert('$message'); </script>";
+		include 'index.php';
     }
 fclose($file);
 }else{
