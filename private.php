@@ -12,9 +12,6 @@ session_start();
 </head>
 
 <?php
-echo "<script>
-alert('$message');
-</script>";
 print_r($_SESSION);
 ?>
 
