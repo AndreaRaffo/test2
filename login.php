@@ -14,11 +14,9 @@ if(isset($_POST["name"]) && isset($_POST["password"])){
 	}
 
     if($good){
-        $message="Welcome";
 		$_SESSION['name'] = $_POST["name"];
 		header("Location: private.php");
     }else{
-        $message="Try again";
 		echo "<script> alert('$message'); </script>";
 		header("Location: index.php");
     }
