@@ -1,7 +1,7 @@
 
 <?php
 session_start();
-if(isset($_SESSION[$_POST["name"]])){
+if(isset($_SESSION['name'])){
 	include 'private.php';
 }
 ?>
@@ -84,6 +84,7 @@ if(isset($_SESSION[$_POST["name"]])){
 		<div class="container page">
 			<h3>Sito in costruzione</h3>
 			<?php
+			echo session_id();
 			$file = fopen('data.txt', 'r');
 			while(!feof($file)){
 			$line = fgets($file);
