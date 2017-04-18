@@ -15,6 +15,7 @@ session_start();
 echo "<script>
 alert('$message');
 </script>";
+$_SESSION['name'] = $_POST["name"];
 print_r($_SESSION);
 ?>
 
