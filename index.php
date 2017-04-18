@@ -84,7 +84,6 @@ if(isset($_SESSION['name'])){
 		<div class="container page">
 			<h3>Sito in costruzione</h3>
 			<?php
-			echo session_id();
 			$file = fopen('data.txt', 'r');
 			while(!feof($file)){
 			$line = fgets($file);

@@ -1,4 +1,5 @@
 <?php
+session_start();
 if(isset($_POST["name"]) && isset($_POST["password"])){
 	
    $file = fopen('data.txt', 'r');
