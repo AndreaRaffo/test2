@@ -19,7 +19,6 @@ if(isset($_POST["name"]) && isset($_POST["password"])){
     }else{
         $message="Try again";
 		echo "<script> alert('$message'); </script>";
-		header("Location: index.php");
     }
 fclose($file);
 }else{
