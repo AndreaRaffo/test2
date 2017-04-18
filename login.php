@@ -16,14 +16,14 @@ if(isset($_POST["name"]) && isset($_POST["password"])){
     if($good){
         $message="Welcome";
 		$_SESSION['name'] = $_POST["name"];
-		include 'private.php';
+		header("Location: private.php");
     }else{
         $message="Try again";
 		echo "<script> alert('$message'); </script>";
-		include('index.php');
+		header("Location: index.php");
     }
 fclose($file);
 }else{
-    include 'index.php';
+    header("Location: index.php");
 }
 ?>
