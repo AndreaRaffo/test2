@@ -1,4 +1,9 @@
 
+<?php
+if(isset($_SESSION[$_POST["name"]])){
+	include 'private.php';
+}
+?>
 
 <!doctype html>
 <html lang="en">
